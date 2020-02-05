@@ -1,0 +1,9 @@
+<!-- index.nunjucks -->
+{% extends "../templates/layout.njk" %}
+{# {% extends ".././" %} #}
+
+
+{% block content %}
+  <h1>This is the index page</h1>
+   <img src="{{images[0].src}}" alt="{{images[0].alt}}">
+{% endblock %}
